@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100vh;
-  width: 100%;
+  max-width: 100vw;
+  font-family: "Roboto", sans-serif;
 }
 .cabecalho {
   background-color: rgb(90, 90, 90);
@@ -52,13 +56,11 @@ a:hover {
 .informacoes h1 {
   width: 500px;
   font-size: 2em;
-  font-family: "Roboto", sans-serif;
 }
 .informacoes p {
   margin-top: 10px;
   font-size: 17px;
   line-height: 18.5px;
-  font-family: "Roboto", sans-serif;
 }
 .skills-contener {
   display: flex;
@@ -72,7 +74,6 @@ a:hover {
 .skills-contener > h2 {
   font-size: 3rem;
   padding: 10px;
-  font-family: "Roboto", sans-serif;
 }
 .ver-mais {
   display: none;
@@ -84,6 +85,7 @@ button {
   border: none;
   position: absolute;
   background-color: #363636;
+  margin-top: 3rem;
 }
 button:hover {
   cursor: pointer;
@@ -112,11 +114,14 @@ button:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Poppins", "";
 }
 .formacoes-cards {
   display: flex;
   gap: 180px;
   padding-top: 50px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 .cad {
   display: flex;
@@ -125,18 +130,16 @@ button:hover {
   flex-direction: column;
   background-color: #fff;
   width: 200px;
-  font-family: "Roboto", sans-serif;
   padding: 40px;
   border-radius: 10px;
   gap: 5px;
-
+  border: 1px solid black;
   -webkit-box-shadow: 2px 2px 162px -14px rgba(0, 64, 255, 1);
   -moz-box-shadow: 2px 2px 162px -14px rgba(0, 64, 255, 1);
   box-shadow: 2px 2px 162px -14px rgba(0, 64, 255, 1);
 }
 .formacoes h2 {
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
 }
 .logo {
   height: 100px;
@@ -149,9 +152,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: Poppins;
 }
 .roda-pe h2 {
-  font-family: "Roboto", sans-serif;
   padding: 3px 0px;
 }
 .roda-pe-icons {
