@@ -66,18 +66,37 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 200px;
+  height: 500px;
   background-color: rgb(90, 90, 90);
 }
 .skills-contener > h2 {
   font-size: 3rem;
   padding: 10px;
   font-family: "Roboto", sans-serif;
-
+}
+.ver-mais {
+  display: none;
+}
+button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  border: none;
+  position: absolute;
+  background-color: #363636;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0040ff;
+  border: 1px solid black;
 }
 .list-incos {
+  flex-wrap: wrap;
   display: flex;
-  gap: 8em;
+  flex-direction: row;
+  max-width: 480px;
+  height: 350px;
+  gap: 20px;
 }
 .list-incos li {
   font-size: 100px;
