@@ -1,0 +1,148 @@
+@media (max-width: 688px) {
+  .cabecalho {
+    justify-content: center;
+  }
+  .navigation a {
+    display: none;
+  }
+  .sobre-mim {
+    gap: 26px;
+    padding: 12px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sobre-mim .img-perfil {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .informacoes {
+    justify-content: center;
+  }
+  .informacoes h1 {
+    font-size: 20px;
+  }
+  .informacoes p {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .formacoes-cards {
+    gap: 40px;
+  }
+}
+@media (max-width: 412px) {
+  .cabecalho a {
+    font-size: 20px;
+  }
+  .navigation {
+    display: none;
+  }
+  .sobre-mim {
+    flex-direction: column;
+  }
+  .sobre-mim .img-perfil {
+    height: 170px;
+  }
+  .informacoes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .informacoes h1 {
+    color: yellowgreen;
+    max-width: 10rem;
+    font-size: 15px;
+  }
+  .informacoes p {
+    font-size: 13px;
+    width: 240px;
+  }
+  .skills-contener h2 {
+    font-size: 2rem;
+  }
+  .list-incos {
+    padding: 50px;
+  }
+  .list-incos li {
+    font-size: 60px;
+  }
+  .formacoes h2 {
+    font-size: 1.5rem;
+  }
+  .formacoes-cards {
+    justify-content: space-between;
+    width: 300px;
+  }
+  .cad {
+    padding: 12px 4.5rem;
+    width: 20px;
+  }
+  .cad .logo {
+    height: 50px;
+  }
+  .cad p {
+    font-size: 11px;
+  }
+  .formacoes-cards {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sobre-mim {
+    flex-direction: column;
+    padding: 0px;
+    gap: 5px;
+  }
+  .skills-contener {
+    padding: 25px;
+  }
+  .informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .informacoes p {
+    width: 200px;
+  }
+  .list-incos {
+    justify-content: center;
+    align-items: center;
+  }
+  .list-incos li {
+    font-size: 50px;
+  }
+  .formacoes .cad {
+    height: 20px;
+    width: 20px;
+    padding: 70px;
+    gap: 7px;
+  }
+}
+@media (max-width: 280px) {
+  .list-incos {
+    justify-content: center;
+    align-items: center;
+  }
+  .list-incos li {
+    font-size: 40px;
+  }
+  .button {
+    position: none;
+    padding-top: 300px;
+  }
+  .formacoes h2 {
+    font-size: 20px;
+  }
+  .formacoes-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cad {
+    height: 500px;
+  }
+}
